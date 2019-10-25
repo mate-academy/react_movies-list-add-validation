@@ -1,6 +1,13 @@
 # Base template for React
 
 ## Task
+Add validation to `NewMovie` form
+1. Validate controls values on blur
+1. `title`, `imgUrl`, `imdbUrl`, `imdbId` should be required
+1. `imgUrl`, `imdbUrl` - should be valid urls (can use this regex `/((([A-Za-z]{3,9}:(?:\/\/)?)(?:[-;:&=+$,\w]+@)?[A-Za-z0-9.-]+|(?:www\.|[-;:&=+$,\w]+@)[A-Za-z0-9.-]+)((?:\/[+~%/.\w-_]*)?\??(?:[-+=&;%@.\w_]*)#?(?:[.!/\\\w]*))?)/`)
+1. Invalid control should have red border and error message below
+1. If form is invalid submit(and submit button) should be disabled
+1. (\*) Show control as invalid only if control has been touched
 
 ## Workflow
 
